@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #262626;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+header{
+    background-color: white;
+    height: 54px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.header{
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.instagram{
+    font-family: 'Cookie', cursive;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.busqueda{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+.icono{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.avatar:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.info{
+    margin-left: 35px;
+    justify-content: left;
+    align-items:unset;
+    text-align: left;}
+
+.user{
+    font-size: 28px;
+    font-weight: 300;
+    color: #262626;
+    margin-right: 20px;
+}
+
+.botonEdit{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.iconito{
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.numeros{
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.tuvida{
+    display: inline;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.separador{
+    display: inline;
+    margin: 10px 30px 10px;
+    border-top: 1px solid #dbdbdb;
+    justify-content: space-evenly;
+}
+
+.separador i{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.fotitos img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 650px){
+    .fotitos img{
+        height: 150px;
+        width: 150px;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #oculto{
+        display: none
+    }
+    .separador i{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .fotitos img{
+        height: 125px;
+        width: 125px;
+        margin: 3px;
+    }
+
+    .avatar{
+        transform: scale(0.75);
+    }
+
+    #buscar{
+        display: none;
+    }
+
+    .info{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .avatar{
+        transform: scale(0.5);
+    }
+
+    .info p, .info  span, .info i{
+        font-size: 11px;    
+    }
+
+    header{
+        margin-bottom: 10px;
+    }
+}

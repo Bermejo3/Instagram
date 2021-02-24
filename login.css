@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.margintop{
+    margin-top: 50px;
+}
+
+.acceso, .registro{
+    background-color: white;
+    align-items: center;
+    width: 350px;
+    padding: 20px 0;
+    margin: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.ini_acceso{
+    width: 100%;
+}
+
+.instagram{
+    margin: 22px;
+    font-family: 'Cookie', cursive;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+input{
+    height: 36px;
+    margin: 0px 0px 6px;
+    width: 250px;
+    padding: 0 10px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+button{
+    height: 25px;
+    width: 275px;
+    background-color: rgba(0,149,246,.3);
+    border:1px solid transparent;
+    opacity: 1;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.separador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.raya{
+    background-color: grey;
+    height: 1px;
+    margin: 10px 30px 10px;
+    width: 90px;
+}
+
+.smiley{
+    font-size: 20px;
+}
+
+.sep_facebook{
+    margin-bottom: 20px;
+}
+
+.facebook{
+    color: #385185;
+    font-weight: 600;
+}
+
+.olvido{
+    margin-bottom: 20px;
+    color: #00376b;
+    font-size: 12px;
+}
+
+.registro p{
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+.registro a{
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.descargas img{
+    height: 40px;
+    margin: 10px;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+footer a, footer p{
+    font-family: 11px;
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 0 8px 12px;
+}
+
+@media screen and (max-width: 800px){
+    #imagenAux{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .acceso, .registro{
+        background-color: #fafafa;
+        align-items: center;
+        width: 350px;
+        padding: 20px 0;
+        margin: 10px;
+        border: 0px solid #dbdbdb;
+        border-radius: 0px;
+    }
+}
